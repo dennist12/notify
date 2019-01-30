@@ -1,1 +1,3 @@
 # Notify
+
+Laravel notifications managment
