@@ -12,7 +12,7 @@
             <div class="col">
                 <ul class="list-group list-group-flush">
                     @foreach ($notifications as $notification)
-                        <li class="list-group-item">{{ $notification['data']['content'] }}</li>
+                        <li class="list-group-item">{{ $notification['data'] }}</li>
                     @endforeach
                 </ul>
                 
