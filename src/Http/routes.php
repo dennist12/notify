@@ -6,4 +6,4 @@ Route::group(['namespace' => 'Notify\Http\Controller',
         Route::post('notification/', 'NotifyController@markRead');
         Route::post('notification/read-all', 'NotifyController@markAllRead');
         Route::post('notification-count', 'NotifyController@countNotifications');
-    });
+});
